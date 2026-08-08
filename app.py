@@ -13,6 +13,18 @@ st.set_page_config(
 )
 
 
+#st.markdown(
+#    """
+#    <style>
+#    .stApp {
+#        background-color: #a02166;
+#    }
+#    </style>
+#    """,
+#    unsafe_allow_html=True,
+#)
+
+
 def is_valid_url(url: str) -> bool:
     """Check whether the entered text is a valid HTTP or HTTPS URL."""
     parsed_url = urlparse(url)
