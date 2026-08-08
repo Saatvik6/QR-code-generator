@@ -803,7 +803,7 @@ with left:
     st.divider()
 
     qr_color = st.color_picker(
-        "QR Color",
+        "Company name Color",
         "#111111",
     )
 
