@@ -48,4 +48,21 @@ Then open the local Streamlit URL shown in the terminal.
 5. Click **Generate QR Code**.
 6. Download the final design as PNG, SVG, or PDF.
 
+## Notes
 
+- Use a darker QR color on a lighter background for best scanning results.
+- Keep the logo size small enough to avoid interfering with QR readability.
+- The app validates URLs and provides warnings when color contrast is too low.
+
+## Dependencies
+
+- `streamlit`
+- `qrcode[pil]==8.2`
+- `reportlab`
+- `Pillow`
+
+## Project files
+
+- `app.py` — main Streamlit application
+- `requirements.txt` — Python dependencies
+- `README.md` — project documentation
