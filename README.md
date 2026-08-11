@@ -19,4 +19,33 @@ A Streamlit-powered web app for creating customizable branded QR codes with logo
 - Python 3.8+
 - Dependencies listed in `requirements.txt`
 
+## Installation
+
+1. Clone or download the repository.
+2. Create and activate a Python virtual environment.
+3. Install dependencies:
+
+```powershell
+pip install -r requirements.txt
+```
+
+## Run locally
+
+From the project root:
+
+```powershell
+python -m streamlit run app.py
+```
+
+Then open the local Streamlit URL shown in the terminal.
+
+## Usage
+
+1. Enter the destination URL in the `URL` field.
+2. Optional: enter a company name for a branded title.
+3. Upload a logo image (`PNG`, `JPG`, `JPEG`, or `WEBP`).
+4. Customize QR style, finder style, colors, logo size, logo background, and padding.
+5. Click **Generate QR Code**.
+6. Download the final design as PNG, SVG, or PDF.
+
 
